@@ -4,6 +4,10 @@
     {
         static void Main(string[] args)
         {
+            Test test = new Test();
+            Console.WriteLine($"Sum of numbers 1 and 2 is: {test.Testi(1, 2)}");
+            Console.WriteLine($"Sum of numbers 3 and 6 is: {test.Testi(3, 6)}");
+
             int myNumber = 5;
             double myDouble = 5.5;
             char myChar = 'a';
@@ -31,7 +35,7 @@
             double radius = Convert.ToDouble(Console.ReadLine());
             double area = Math.PI * radius * radius;
             Console.WriteLine($"The area of the circle is {area}");
-            
+
             Console.WriteLine("--------------------");
 
             Console.WriteLine("What is your name?");
